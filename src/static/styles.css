@@ -74,6 +74,35 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card .participants {
+  margin-top: 15px;
+  padding: 15px;
+  border-top: 2px dashed #ddd;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card .participants h5 {
+  margin-bottom: 12px;
+  color: #1565c0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.activity-card .participants ul {
+  list-style-type: circle;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.activity-card .participants ul li {
+  margin-bottom: 8px;
+  color: #424242;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -108,7 +137,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
